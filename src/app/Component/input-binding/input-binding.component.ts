@@ -1,11 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-input-binding',
   imports: [],
-  templateUrl: './input-binding.component.html',
+  template: `<p>Hello, {{ name }}!</p>`,
+
+
   styleUrl: './input-binding.component.css'
 })
 export class InputBindingComponent {
+  @Input() name: string = '';
 
 }
