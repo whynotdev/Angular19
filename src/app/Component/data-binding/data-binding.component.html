@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-4">
+    <h1>Interpolation Binding</h1>
+    <p>{{ firstName }}</p>
+    <p>{{ rollNo }}</p>
+  </div>
+
+  <div class="col-md-4">
+    <h1>property Binding</h1>
+    <input type="text" [placeholder]="myplaceholder" />
+    <p>
+      like surround attribute or property [] = and "provide here variable name"
+    </p>
+    <p>by this we can provide dynamic value using properties</p>
+  </div>
+  <div class="col-md-4">
+    <h1>Event Binding</h1>
+    <button (click)="welcome()" class="bg-success">clickhere</button>
+  </div>
+<div class="col-4"><select [(ngModel)]="selectedOption">
+  <option value="pune">Pune</option>
+  <option value="bnagalore">bnagalore</option>
+</select>
+<p>You selected: {{ selectedOption }}</p></div>
+  
+  
+</div>
