@@ -11,4 +11,15 @@ import { EventBindingComponent } from './Component/event-binding/event-binding.c
 })
 export class AppComponent {
   title = 'firstangular';
+
+  // showModal = false;
+
+  // openModal() {
+  //   this.showModal = true;
+  // }
+
+  // closeModal() {
+  //   this.showModal = false;
+  // }
+
 }
