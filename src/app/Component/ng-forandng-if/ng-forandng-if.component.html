@@ -1,0 +1,15 @@
+<p>ng-forandng-if works!</p>
+<div>
+  <h1>ngFor and ngIf Example</h1>
+  <ul>
+    <li *ngFor="let item of items">{{ item }}</li>
+  </ul>
+
+  <div *ngIf="isLoggedIn">
+    <p>You are logged in!</p>
+  </div>
+  <div *ngIf="!isLoggedIn">
+    <p>Please log in to continue.</p>
+  </div>
+</div>
+

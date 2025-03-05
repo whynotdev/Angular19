@@ -1,0 +1,13 @@
+<p>toggle-visibility works!</p>
+<div>
+  <h1>Pagination Example</h1>
+
+  <ul>
+    <li *ngFor="let item of paginatedData">{{ item }}</li>
+  </ul>
+
+  <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
+  <button (click)="nextPage()" [disabled]="currentPage * itemsPerPage >= data.length">Next</button>
+
+  <p>Page {{ currentPage }} of {{ Math.ceil(data.length / itemsPerPage) }}</p>
+</div>
