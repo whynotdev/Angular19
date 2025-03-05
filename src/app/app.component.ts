@@ -22,4 +22,10 @@ export class AppComponent {
   //   this.showModal = false;
   // }
 
+  // destroyDirective() {
+  //   alert('Directive will be destroyed.');
+  //   // Logic for destroying the directive can be handled here
+  // }
+
+
 }
